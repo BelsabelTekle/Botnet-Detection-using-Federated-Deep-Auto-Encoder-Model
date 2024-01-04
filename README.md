@@ -1,1 +1,2 @@
 # Botnet-Detection-using-Federated-Deep-Auto-Encoder-Model
+For each device involved in the training process, the data pre-processing is the same as the local detection; however, when starting the federated detection process, the training process would happen simultaneously on all devices for training. Additionally, the weights of each deep autoencoder model of each device are transmitted to the global server, and the aggregation function such as FedAvg shows the model architecture of the anomaly detection using a FDA model.
